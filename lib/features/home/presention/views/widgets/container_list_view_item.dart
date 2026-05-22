@@ -7,10 +7,9 @@ class ContainerListViewItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AspectRatio(
-      aspectRatio: 2.3 / 3,
+      aspectRatio: 2.2 / 3,
       child: Container(
         decoration: BoxDecoration(
-          color: Colors.red,
           image: DecorationImage(
             fit: BoxFit.fill,
             image: AssetImage(AssetsData.book1),
