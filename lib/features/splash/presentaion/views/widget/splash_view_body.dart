@@ -3,7 +3,6 @@ import 'package:bookly_app/features/home/presention/views/home_view.dart';
 import 'package:bookly_app/features/splash/presentaion/views/widget/text_slide_animation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
-import 'package:get/utils.dart';
 
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({super.key});
