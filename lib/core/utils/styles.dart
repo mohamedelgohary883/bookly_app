@@ -18,8 +18,9 @@ abstract class Styles {
     fontWeight: FontWeight.bold,
   );
   static const bookPrice = TextStyle(
-    fontSize: 24,
+    fontSize: 20,
     color: defaultColor,
     fontWeight: FontWeight.bold,
+    fontFamily: 'regular',
   );
 }

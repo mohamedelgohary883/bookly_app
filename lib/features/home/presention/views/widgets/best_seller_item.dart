@@ -44,6 +44,7 @@ class BestSellerItem extends StatelessWidget {
                       style: Styles.bookTitle,
                     ),
                     Text('Mohamed Elgohary', style: Styles.bookPublisher),
+                    SizedBox(height: 5),
                     Row(
                       children: [
                         Text('19.99\$', style: Styles.bookPrice),

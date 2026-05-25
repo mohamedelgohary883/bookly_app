@@ -1,4 +1,7 @@
+import 'package:bookly_app/constant.dart';
 import 'package:bookly_app/core/utils/styles.dart';
+import 'package:bookly_app/features/home/presention/views/widgets/book_action.dart';
+import 'package:bookly_app/features/home/presention/views/widgets/custom_button.dart';
 import 'package:bookly_app/features/home/presention/views/widgets/book_rating.dart';
 import 'package:bookly_app/features/home/presention/views/widgets/custom_conatiner_image.dart';
 import 'package:bookly_app/features/home/presention/views/widgets/custom_book_details_appbar.dart';
@@ -25,6 +28,8 @@ class BookDetailsViewBody extends StatelessWidget {
           Text('Mohamed Elgohary', style: Styles.bookPublisher),
           SizedBox(height: 10),
           BookRating(mainAxisAlignment: MainAxisAlignment.center),
+          SizedBox(height: 40),
+          BookAction(),
         ],
       ),
     );
