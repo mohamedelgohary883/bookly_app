@@ -1,4 +1,4 @@
-import 'package:bookly_app/features/home/presention/views/widgets/container_list_view_item.dart';
+import 'package:bookly_app/features/home/presention/views/widgets/custom_conatiner_image.dart';
 import 'package:flutter/material.dart';
 
 class BooksListView extends StatelessWidget {
@@ -12,7 +12,7 @@ class BooksListView extends StatelessWidget {
         itemCount: 5,
         scrollDirection: Axis.horizontal,
         itemBuilder: (context, index) {
-          return ContainerListViewItem();
+          return CustomConatinerImage();
         },
       ),
     );
