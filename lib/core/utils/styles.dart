@@ -8,7 +8,7 @@ abstract class Styles {
     color: defaultColor,
   );
   static const bookTitle = TextStyle(
-    fontSize: 24,
+    fontSize: 28,
     fontWeight: FontWeight.bold,
     color: defaultColor,
   );

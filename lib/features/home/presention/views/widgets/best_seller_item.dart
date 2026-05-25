@@ -12,7 +12,7 @@ class BestSellerItem extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 3),
       child: SizedBox(
-        height: MediaQuery.of(context).size.height * 0.15,
+        height: MediaQuery.of(context).size.height * 0.18,
         child: GestureDetector(
           onTap: () {
             GoRouter.of(context).push('/bookDetailsView');
@@ -32,33 +32,24 @@ class BestSellerItem extends StatelessWidget {
               ),
 
               SizedBox(width: 20),
-
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    SizedBox(height: 20),
-                    SizedBox(
-                      width: MediaQuery.of(context).size.width * 0.5,
-                      child: Text(
-                        'The Jungle Book ',
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                        style: Styles.bookTitle,
-                      ),
+                    Text(
+                      'The Jungle Book',
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: Styles.bookTitle,
                     ),
-                    SizedBox(height: 3),
                     Text('Mohamed Elgohary', style: Styles.bookPublisher),
-                    SizedBox(height: 3),
-                    Expanded(
-                      child: Row(
-                        children: [
-                          Text('19.99\$', style: Styles.bookPrice),
-                          Spacer(),
-
-                          BookRating(),
-                        ],
-                      ),
+                    Row(
+                      children: [
+                        Text('19.99\$', style: Styles.bookPrice),
+                        Spacer(),
+                        BookRating(),
+                      ],
                     ),
                   ],
                 ),

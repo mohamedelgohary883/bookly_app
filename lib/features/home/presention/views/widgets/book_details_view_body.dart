@@ -23,7 +23,7 @@ class BookDetailsViewBody extends StatelessWidget {
           Text('The jungel Book', style: Styles.bookTitle),
           SizedBox(height: 5),
           Text('Mohamed Elgohary', style: Styles.bookPublisher),
-          SizedBox(height: 5),
+          SizedBox(height: 10),
           BookRating(mainAxisAlignment: MainAxisAlignment.center),
         ],
       ),
