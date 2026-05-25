@@ -9,17 +9,15 @@ class CustomAppbar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(right: 15, left: 20, top: 10),
-      child: SafeArea(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Image.asset(AssetsData.logo),
-            IconButton(
-              onPressed: () {},
-              icon: Icon(Icons.search, size: 28, color: defaultColor),
-            ),
-          ],
-        ),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Image.asset(AssetsData.logo),
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.search, size: 28, color: defaultColor),
+          ),
+        ],
       ),
     );
   }
